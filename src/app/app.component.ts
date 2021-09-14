@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'stock-analyzer';
+  display: boolean = false;
+
+  constructor() {
+    console.log(this.display);
+  }
+
+  toggle(): void {
+    this.display = true;
+  }
 }
