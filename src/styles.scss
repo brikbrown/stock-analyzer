@@ -31,8 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    background: #e9eaec;
+    background: #fff;
 	font-family: 'Quicksand', sans-serif;
+	overflow: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -48,6 +49,26 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.p-button {
+	background-color: #FAD02C;
+	background: #FAD02C;
+	border: #FAD02C
+}
+
+.p-button:hover {
+	background-color: #FAD02e;
+	background: #FAD02C;
+}
+
+.p-ripple.p-element {
+	background-color: #FAD02C;
+}
+
+.main-graph div.p-card {
+	height: 45%;
+	margin-bottom: 10px;
 }
 
 @import '~primeicons/primeicons.css';

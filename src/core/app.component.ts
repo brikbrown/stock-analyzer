@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'stock-analyzer';
+  title = 'stock-wise';
   display: boolean = false;
 
   constructor() {

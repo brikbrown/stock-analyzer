@@ -8,10 +8,17 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { ToolbarModule } from 'primeng/toolbar';
 import { SidebarModule } from 'primeng/sidebar';
+import { InputTextModule } from 'primeng/inputtext';
+import { CalendarModule } from 'primeng/calendar';
+import { CardModule } from 'primeng/card';
+import { FilterPaneComponent } from './filter-pane/filter-pane.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FilterPaneComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +26,10 @@ import { SidebarModule } from 'primeng/sidebar';
     AppRoutingModule,
     ButtonModule,
     ToolbarModule,
-    SidebarModule
+    SidebarModule,
+    InputTextModule,
+    CalendarModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

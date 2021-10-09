@@ -1,0 +1,28 @@
+<div class="sidebar shadow-2">
+    <div class="sidebar-head">
+      <i class="pi pi-filter" style="font-size: 2rem; margin-right: 10px;"></i>
+      <h2>Filters</h2>
+    </div>
+    <div class="sidebar-inputs">
+      <span>
+        <i class="pi pi-search"></i>
+        <input 
+          id="keyword" 
+          type="text"
+          placeholder="Keyword" pInputText>
+      </span>
+      <span>
+        <i class="pi pi-calendar"></i>
+        <p-calendar
+          inputId="calendar"
+          selectionMode="range"
+          placeholder="Date Range"
+          appendTo="body">
+        </p-calendar>
+      </span>
+    </div>
+    <div class="footer">
+      <p-button label="Clear"></p-button>
+      <p-button label="Search"></p-button>
+    </div>
+  </div>

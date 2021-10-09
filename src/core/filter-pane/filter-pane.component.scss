@@ -1,0 +1,58 @@
+.sidebar {
+    background-color: #E9EAEC;
+    color: #333652;
+    height: 100vh;
+    width:  275px;
+    display: flex;
+    overflow: hidden;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+ 
+    .footer {    
+     display: flex;
+     margin-top: 25px;
+     padding-left: 25px;
+    }
+ 
+    .footer p-button {
+        padding: 5px;
+    }
+ }
+ 
+ .sidebar-head {
+     height: 30px;
+     font-weight: 600;
+     width: 100%;
+     font-size: 2rem;
+     display: flex;
+     letter-spacing: 1pt;
+     align-items: center;
+     padding-bottom: 15px;
+     border-bottom: 2px solid;
+ }
+ 
+ .sidebar-inputs {
+     display: flex;
+     flex-direction: column;
+     margin-top: 50px;
+ 
+     span {
+         margin-top: 10px;
+     }
+ 
+     span i {
+         font-size: 1.2rem;
+         padding-right: 10px;
+     }
+ }
+
+::ng-deep app-filter-pane .p-calendar {
+    width: 85%;
+}
+
+::ng-deep app-filter-pane .p-inputtext {
+    width: 85%;
+}
+ 

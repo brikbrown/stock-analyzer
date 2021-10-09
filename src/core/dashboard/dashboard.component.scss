@@ -1,0 +1,9 @@
+.dashboard-wrap {
+    margin: 15px;
+    height: 340px;
+}
+
+::ng-deep app-dashboard .main-graph div.p-card.p-component {
+    height: 100%;
+    margin-bottom: 20px;
+}

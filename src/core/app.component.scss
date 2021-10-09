@@ -1,13 +1,17 @@
 .content {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
 }
 
 .header {
     background: #333652;
-    height: 50px;
+    height: 60px;
     padding: 10px;
-    color: white;
+    color: #fff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,4 +23,12 @@ h1 {
 
 .toggle-bar {
     margin-top: 100px;
+}
+
+app-filter-pane {
+    flex: 0;
+}
+
+app-dashboard {
+    flex: 1;
 }
